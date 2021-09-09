@@ -2,7 +2,7 @@
 from flask import Flask, render_template, request
 
 #Declare the app.
-app = Flask(__name__)
+application = app = Flask(__name__)
 
 #Start an app route which is '/'
 @app.route('/')
